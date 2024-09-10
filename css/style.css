@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+:root{
+	--color-general:#666;
+	--color-titulos:#000;
+	--color-naranja: #fe8f01;
+	--fondo-card: #494949;
+	--fondo-counter: #010101;
+}
+
+body{
+	font-family:Open Sans;
+	
+}
+
+
+
+header{
+	background-color: var(--color-general);
+	color:var(--color-naranja);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#hero-slides h1{
+	text-transform: uppercase;
+	
+	
+}
+
+#About-us{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	
+}
+
+
+#About-us-info{
+	background-color:#fff;
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+#About-us-info .tarjeta{
+	padding: 20px;
+	background-color:var(--fondo-card);
+	text-align: center; 
+	border-radius: 10px;
+	color:#fff;
+}
+
+#About-us-info .tarjeta i{
+	font-size: 60px;
+	margin-bottom: 20px;
+	background-color: var(--color-naranja);
+	border-radius: 100px;
+}
+
+#About-us h2{
+	text-transform: uppercase;
+	text-align: center;
+	color:var(--color-titulos);
+}
+
+
+#About-us-info h4{
+	text-transform: uppercase;
+	
+}
+
+#About-us-info p{
+	color:#C4C4C4;
+	
+}
+
+
+#counter{
+	padding-top:60px;
+	padding-bottom:60px;
+	background-color: var(--fondo-counter);
+	color:#fff;
+}
+
+#counter .info{
+	text-align: center;
+	
+	
+}
+
+#counter .info i{
+	font-size: 30px;
+	margin-bottom: 10px;
+	
+}
+
+#counter .info p{
+	color:var(--color-naranja);
+	
+	
+}
+
+
+footer{
+	color:#fff;
+	background-color: var(--color-general);
+	padding-top: 5px;
+	padding-bottom: 10px;
+	text-align: center;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
